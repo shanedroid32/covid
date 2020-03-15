@@ -12,7 +12,13 @@ const FooterContent = styled.div`
 export default function Footer() {
   return (
     <FooterContent>
-      Inspired by &nbsp;
+      Developed by &nbsp;
+      <a
+        href='https://twitter.com/shanedroid'
+        style={{ textDecoration: 'none', color: 'rgb(33,150,243)' }}>
+        <i class='fab fa-twitter'></i> Shane M. Ross
+      </a>
+      &nbsp; | Inspired by &nbsp;
       <a
         href='https://wesbos.com/'
         style={{ textDecoration: 'none', color: 'rgb(33,150,243)' }}>
