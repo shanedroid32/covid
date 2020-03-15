@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import format from 'date-fns/format';
 
 import Stats from '../components/stats';
 import CountrySelector from '../components/countrySelector';
+import Footer from '../components/footer';
 
 const IndexBody = styled.div`
   padding: 32px;
@@ -15,15 +15,9 @@ export default function IndexPage() {
   return (
     <IndexBody>
       <h1>🦠 COVID-19 Statistics</h1>
-      <p>
-        Last Updated{' '}
-        {format(
-          new Date('2020-03-15T02:33:03.000Z'),
-          'MM/dd/yyyy @ hh:mm:ss a'
-        )}
-      </p>
       <Stats url='https://covid19.mathdro.id/api' />
       <CountrySelector />
+      <Footer />
     </IndexBody>
   );
 }

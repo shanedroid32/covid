@@ -4,6 +4,10 @@
   "description": "A website to display info about Coronavirus 2019 (COVID-19)",
   "main": "index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "date-fns": "^2.11.0",
     "next": "^9.3.0",
     "react": "^16.13.0",
@@ -13,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "next",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },

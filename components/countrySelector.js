@@ -13,7 +13,10 @@ export default function CountrySelector() {
   if (error) return <p>Error...</p>;
 
   return (
-    <div>
+    <div
+      style={{
+        marginTop: '16px',
+      }}>
       <select
         onChange={(e) => {
           console.log(e);

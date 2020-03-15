@@ -10,12 +10,11 @@ export default class CoronaDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-          <title>🦠 COVID-19 Stats</title>
           <meta
             name='viewport'
             content='initial-scale=1.0, width=device-width'
           />
-          <meta charset='UTF-8' />
+          <meta charSet='UTF-8' />
           <meta
             name='description'
             content='A website to display statistics about Coronavirus 2019 (COVID-19)'
@@ -29,6 +28,9 @@ export default class CoronaDocument extends Document {
             rel='stylesheet'
             href='https://unpkg.com/modern-css-reset/dist/reset.min.css'
           />
+          <script
+            src='https://kit.fontawesome.com/ada1a9d1cf.js'
+            crossorigin='anonymous'></script>
         </Head>
         <body>
           <Main />
