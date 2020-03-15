@@ -13,7 +13,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "next"
+    "start": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
