@@ -6,7 +6,7 @@ const FooterContent = styled.div`
   margin-top: 64px;
   text-align: center;
   font-size: 0.8rem;
-  color: #cdcdcd;
+  color: #9e9e9e;
 `;
 
 export default function Footer() {

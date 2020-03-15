@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Stats from '../components/stats';
 import CountrySelector from '../components/countrySelector';
 import Footer from '../components/footer';
+import InfoLinks from '../components/infoLinks';
 
 const IndexBody = styled.div`
   padding: 32px;
@@ -17,6 +18,7 @@ export default function IndexPage() {
       <h1>🦠 COVID-19 Statistics</h1>
       <Stats url='https://covid19.mathdro.id/api' />
       <CountrySelector />
+      <InfoLinks />
       <Footer />
     </IndexBody>
   );
